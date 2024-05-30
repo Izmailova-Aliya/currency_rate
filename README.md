@@ -19,5 +19,10 @@ We run commands one by one
 DockerHub
 https://hub.docker.com/repositories/regidr0n
 
+** RESULTS
+<img width="1230" alt="image" src="https://github.com/Izmailova-Aliya/currency_rate/assets/59693961/d53294ce-f83e-4058-8d61-ba2741b3571d">
+
+<img width="777" alt="image" src="https://github.com/Izmailova-Aliya/currency_rate/assets/59693961/c0c33340-4b9b-417b-8996-a482e3bfdf7e">
+
 
 
