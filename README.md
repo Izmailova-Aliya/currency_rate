@@ -5,15 +5,16 @@ We run commands one by one
 
 1. docker build -t regidr0n/airflow_currency:latest .
 2. docker run -d -p 8080:8080 regidr0n/airflow_currency:latest
-3. docker-compose up -d
-4. docker-compose run --rm airflow-webserver airflow users create \
+3. docker push regidr0n/airflow_currency:latest
+4. docker-compose up -d
+5. docker-compose run --rm airflow-webserver airflow users create \
   --username admin \
   --password admin \
   --firstname Admin \
   --lastname User \
   --role Admin \
   --email email@gmail.com
-5. python3 service.py --currencies KZT,UZS,AZN,MYR,KGS --date 2024-05-30
+6. python3 service.py --currencies KZT,UZS,AZN,MYR,KGS --date 2024-05-30
 
 
 DockerHub
